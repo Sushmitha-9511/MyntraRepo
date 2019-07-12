@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyntraApplicationAutomationTestSuite">
+<test name="Myntra App Test">
+		<classes>
+			<class name="com.yntra.testcases.Myntra_Login_Test" />
+			<class name="com.yntra.testcases.Myntra_Home_Test" />
+		</classes>
+	</test>
+</suite>
